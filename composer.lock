@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fc62bcf42070785044dcf11968d96658",
+    "packages": [
+        {
+            "name": "yaroskov/data",
+            "version": "v1.0.11-stable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaroskov/data.git",
+                "reference": "1a031a3cb85645481bd57092de7eb0d20e5bf145"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaroskov/data/zipball/1a031a3cb85645481bd57092de7eb0d20e5bf145",
+                "reference": "1a031a3cb85645481bd57092de7eb0d20e5bf145",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yaroskov\\Data\\": "src/",
+                    "Yaroskov\\Data\\Components\\": "src/Components/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Yaroslav Kovalev",
+                    "email": "yaroskov@yandex.ru"
+                }
+            ],
+            "description": "This is a data handler package",
+            "time": "2019-01-18T09:08:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2"
+    },
+    "platform-dev": {
+        "php": ">=7.2"
+    }
+}

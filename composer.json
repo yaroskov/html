@@ -1,0 +1,27 @@
+{
+    "name": "yaroskov/html",
+    "description": "A package for working with html string",
+    "type": "library",
+    "require-dev": {
+        "php": ">=7.2"
+    },
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Yaroslav Kovalev",
+            "email": "yaroskov@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2",
+        "yaroskov/data": ">=1.0.0-stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yaroskov\\Html\\": "src/",
+            "Yaroskov\\Html\\Components\\": "src/Components/",
+            "Yaroskov\\Html\\Components\\Tag\\": "src/Components/Tag/"
+        }
+    }
+}
